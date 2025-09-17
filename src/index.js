@@ -1,4 +1,4 @@
 import "./styles.css";
-import { loadContent } from "./on-page-load";
+import { loadContent } from "./homepage.js";
 
 loadContent();
