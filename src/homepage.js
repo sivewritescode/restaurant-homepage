@@ -1,4 +1,4 @@
-export function loadContent() {
+export function loadHomepage() {
   const content = document.getElementById("content");
 
   const welcomeText = document.createElement("p");
