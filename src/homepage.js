@@ -1,5 +1,7 @@
 export function loadHomepage() {
+
   const content = document.getElementById("content");
+  content.innerHTML = "";
 
   const welcomeText = document.createElement("p");
   welcomeText.setAttribute("id", "welcome-text");
