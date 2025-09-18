@@ -1,10 +1,12 @@
+import "./about-page.css";
 import aboutPageImage from "./assets/images/about-page-image.jpg";
 
 export function loadAboutPage() {
 
   const content = document.getElementById("content");
-  //Clear any content before rendering new content.
   content.innerHTML = "";
+
+  content.style["backgroundColor"] = "#f2f0ef";
 
   const ourStoryTitle = document.createElement("h1");
   ourStoryTitle.textContent = "Our Story";

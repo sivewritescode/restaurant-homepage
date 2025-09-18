@@ -1,7 +1,12 @@
+import "./homepage.css";
 export function loadHomepage() {
 
   const content = document.getElementById("content");
   content.innerHTML = "";
+
+  content.style.backgroundImage = "url('assets/images/sear-background-image.jpg')";
+
+  content.style["backgroundColor"] = "#3C3836";
 
   const welcomeText = document.createElement("p");
   welcomeText.setAttribute("id", "welcome-text");
@@ -22,3 +27,10 @@ export function loadHomepage() {
   content.appendChild(headlineText);
   content.appendChild(findATableBtn);
 }
+
+  // background-image: url("assets/images/sear-background-image.jpg");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center center;
+  // backdrop-filter: brightness(60%);
+  // background-color: rgba(255, 255, 255, 0.5);
