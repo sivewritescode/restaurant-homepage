@@ -26,26 +26,6 @@ body {
   height: 100vh;
 }
 
-#content {
-  height: 100%;
-}
-
-#home-content {
-  height: 100%;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./assets/images/sear-background-image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
 hr {
   width: 100px;
   height: 3px;
@@ -85,6 +65,26 @@ button[id*="nav-button"]:active {
   background-color: #cbcaca;
 }
 
+#content {
+  height: 100%;
+}
+
+#home-content {
+  height: 100%;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./assets/images/sear-background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
 #welcome-text {
   color: #f2f0ef;
   font-family: "Lato";
@@ -115,4 +115,33 @@ button[id*="nav-button"]:active {
 
 #find-a-table:active {
   background-color: rgba(255, 255, 255, 0);
+}
+
+#about-content {
+  height: 100%;
+  color: #3C3836;
+  background-color: #f2f0ef;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#story-container {
+  max-width: 644px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#about-image {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#story-title {
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
