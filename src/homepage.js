@@ -3,7 +3,8 @@ export function loadHomepage() {
   const content = document.getElementById("content");
   content.innerHTML = "";
 
-  content.style.backgroundImage = "url('assets/images/sear-background-image.jpg')";
+  const homeContent = document.createElement("div");
+  homeContent.setAttribute("id", "home-content");
 
   const welcomeText = document.createElement("p");
   welcomeText.setAttribute("id", "welcome-text");
@@ -19,8 +20,10 @@ export function loadHomepage() {
   findATableBtn.setAttribute("id", "find-a-table");
   findATableBtn.textContent = "Find a Table";
 
-  content.appendChild(welcomeText);
-  content.appendChild(horizontal);
-  content.appendChild(headlineText);
-  content.appendChild(findATableBtn);
+  homeContent.appendChild(welcomeText);
+  homeContent.appendChild(horizontal);
+  homeContent.appendChild(headlineText);
+  homeContent.appendChild(findATableBtn);
+
+  content.appendChild(homeContent);
 }

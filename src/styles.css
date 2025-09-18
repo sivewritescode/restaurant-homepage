@@ -24,20 +24,20 @@
 
 body {
   height: 100vh;
-  background-image: url("assets/images/sear-background-image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  backdrop-filter: brightness(60%);
-  background-color: rgba(255, 255, 255, 0.5);
-
-  display: flex;
-  flex-direction: column;
 }
 
 #content {
   height: 100%;
-  background-color: #3C3836;
+}
+
+#home-content {
+  height: 100%;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./assets/images/sear-background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 
   display: flex;
   flex-direction: column;
