@@ -71,6 +71,7 @@ button[id*="nav-button"]:active {
 
 #home-content {
   height: 100%;
+  color: #f2f0ef;
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./assets/images/sear-background-image.jpg");
@@ -144,4 +145,41 @@ button[id*="nav-button"]:active {
 
 #story-title {
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#menu-content {
+  height: 100vh;
+  background-color: #f2f0ef;
+  color: #3C3836;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+#dish-one-container,
+#dish-two-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-title {
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu-image {
+  height: 376px;
+  width: 644px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+}
+
+.dish-description {
+  max-width: 644px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
